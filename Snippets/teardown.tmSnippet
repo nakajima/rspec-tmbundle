@@ -9,7 +9,7 @@ end</string>
 	<key>name</key>
 	<string>after</string>
 	<key>scope</key>
-	<string>source.ruby.rspec</string>
+	<string>source.ruby</string>
 	<key>tabTrigger</key>
 	<string>aft</string>
 	<key>uuid</key>
