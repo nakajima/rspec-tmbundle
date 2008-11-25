@@ -20,7 +20,7 @@ ${TM_RUBY:-ruby} /tmp/textmate-command-$$.rb; exit_status=$?; rm /tmp/textmate-c
 	<key>input</key>
 	<string>document</string>
 	<key>keyEquivalent</key>
-	<string>@R</string>
+	<string>@D</string>
 	<key>name</key>
 	<string>Run Single Example</string>
 	<key>output</key>
