@@ -6,6 +6,12 @@
 	<string>saveModifiedFiles</string>
 	<key>command</key>
 	<string>#!/usr/bin/env sh
+
+# Local Gems (http://ozmm.org/posts/local_gems.html)
+export GEM_HOME="$HOME/.gems"
+export GEM_PATH="$GEM_HOME"
+export PATH="$HOME/.gems/bin:$PATH"
+
 cat &lt;&lt;'RUBYEOF' &gt; /tmp/textmate-command-$$.rb
 
 require ENV['TM_BUNDLE_SUPPORT'] + "/lib/spec/mate"
